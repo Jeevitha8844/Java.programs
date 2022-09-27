@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Calculator {
+public static void main(String[] args) {
+	double Result;
+	Scanner scan= new Scanner(System.in);
+	System.out.println("Enter 2 numbers");
+	double a=scan.nextDouble();
+	double b=scan.nextDouble();
+	Result=a+b;
+	System.out.println("the Sum  of two no is" +Result);
+	
+	Result=a-b;
+	System.out.println("the Difference of two no is" +Result);
+	
+	Result=a*b;
+	System.out.println("the multiplication of two no is" +Result);
+	
+	Result=a/b;
+	System.out.println("the division of two no is" +Result);
+}
+}
